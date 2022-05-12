@@ -18,11 +18,13 @@
 	padding-left: 30px;
 }
 
-.book .book-summary .exc-trigger:before {
+.book .book-summary .exc-trigger:after {
   	content: "\f0da";
+	color: ##4FE0B6;
 }
 
-.book .book-summary .expanded > a .exc-trigger:before,
-.book .book-summary .expanded > span .exc-trigger:before {
+.book .book-summary .expanded > a .exc-trigger:after,
+.book .book-summary .expanded > span .exc-trigger:after {
 	content: "\f0d7";
+	color: ##4FE0B6;
 }
